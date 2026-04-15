@@ -1,0 +1,14 @@
+---
+const { currentLang, languages } = Astro.props;
+---
+
+<nav class="language-switcher" aria-label="Language selector">
+  {languages.map((language) => (
+    <a
+      href={language.code === "ca" ? "/" : `/${language.code}/`}
+      class:list={[currentLang === language.code && "is-active"]}
+    >
+      {language.label}
+    </a>
+  ))}
+</nav>

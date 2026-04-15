@@ -1,0 +1,651 @@
+races:
+  - year: "2026"
+    date: 2026-04-11
+    race_name: Raid Terra Sud
+    driver: Nom del pilot
+    car: Toyota Land Cruiser
+    final_class_position: "10"
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
+  - year: "2011"
+    date: 09/04/2011
+    race_name: Baja Almanzora (Pilot)
+    driver: Albert Casabona
+    car: Nissan Navara
+    final_class_position: out
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
+  - year: "2012"
+    date: 17/03/2012
+    race_name: IV Ral·li Pachà - La Pineda
+    driver: Jordi Figueras
+    car: Peugeot 205
+    final_class_position: "5"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2012"
+    date: 14/04/2012
+    race_name: IV Ral·li Cervera Asfalt
+    driver: Jordi Figueras
+    car: Peugeot 205
+    final_class_position: "2"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2012"
+    date: 16/06/2012
+    race_name: 45 Rally Ourense
+    driver: Oscar Barroso
+    car: Suzuki Swift Trofeo
+    final_class_position: "2"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2012"
+    date: 07/07/2012
+    race_name: 44 Ral·li Osona
+    driver: Jaume Tombas
+    car: Seat Ibiza
+    final_class_position: "3"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2012"
+    date: 25/08/2012
+    race_name: 43 Rally Ferrol
+    driver: Oscar Barroso
+    car: Suzuki Swift Trofeo
+    final_class_position: out
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2012"
+    date: 06/10/2012
+    race_name: III Ral·li Valls
+    driver: Jordi Figueras
+    car: Peugeot 106
+    final_class_position: out
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2013"
+    date: 16/03/2013
+    race_name: V Ral·li Pachà - La Pineda
+    driver: Jordi Figueras
+    car: Peugeot 106
+    final_class_position: "9"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2013"
+    date: 20/04/2013
+    race_name: 14è Ral·li Ciutat Cervera
+    driver: Pep Bassas
+    car: Ford Focus
+    final_class_position: "8"
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2013"
+    date: 04/05/2013
+    race_name: 15è Ral·li Ciutat d'Igualada
+    driver: Oscar Barroso
+    car: Peugeot 206 XS
+    final_class_position: out
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2013"
+    date: 25/05/2013
+    race_name: 28è Ral·li Empordà
+    driver: Oscar Barroso
+    car: Peugeot 206 XS
+    final_class_position: "3"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2013"
+    date: 01/06/2013
+    race_name: 49 Rally Rías Baixas
+    driver: Oscar Barroso
+    car: Suzuki Swift Copa
+    final_class_position: "10"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2013"
+    date: 06/07/2013
+    race_name: 45 Ral·li Osona
+    driver: Oscar Barroso
+    car: Peugeot 206 XS
+    final_class_position: out
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2013"
+    date: 24/08/2013
+    race_name: 44 Rally Ferrol
+    driver: Oscar Barroso
+    car: Suzuki Swift Copa
+    final_class_position: "10"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2014"
+    date: 14/06/2014
+    race_name: 7è Ral·li Vila d'Àgèr
+    driver: Joaquim Rovira
+    car: Opel Corsa
+    final_class_position: out
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2014"
+    date: 11/10/2014
+    race_name: V Ral·li Valls
+    driver: Jordi Figueras
+    car: Peugeot 106
+    final_class_position: "7"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2015"
+    date: 22/02/2015
+    race_name: 18è Ral·lisprint Sant Julià
+    driver: Jordi Figueras
+    car: Peugeot 106
+    final_class_position: "5"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2015"
+    date: 28/03/2015
+    race_name: VII Ral·li Pachà - La Pineda
+    driver: Jordi Figueras
+    car: Peugeot 106
+    final_class_position: "4"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2015"
+    date: 25/04/2015
+    race_name: 17è Ral·li Ciutat d'Igualada
+    driver: Jordi Figueras
+    car: Peugeot 106
+    final_class_position: out
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2016"
+    date: 28/02/2016
+    race_name: 19è Ral·lisprint Sant Julià
+    driver: Oscar Barroso
+    car: Citroën Saxo VTS
+    final_class_position: "1"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2016"
+    date: 19/03/2016
+    race_name: VIII Ral·li La Pineda Platja
+    driver: Toni Rodriguez
+    car: Citroën Saxo VTS
+    final_class_position: "1"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2016"
+    date: 30/04/2016
+    race_name: 18è Ral·li Ciutat d'Igualada
+    driver: Toni Rodriguez
+    car: Citroën Saxo VTS
+    final_class_position: out
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2017"
+    date: 22/04/2017
+    race_name: 1r. Ral·li Calaf - Focuxtreme
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "2"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2017"
+    date: 13/05/2017
+    race_name: 4t Ral·li de Terra Vila de Bellpuig
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: out
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2017"
+    date: 02/09/2017
+    race_name: 18è Ral·li de Terra de Cervera
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "3"
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2017"
+    date: 16/09/2017
+    race_name: 24è Ral·li Girona (Ral·lisprint)
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "4"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2017"
+    date: 04/11/2017
+    race_name: 5è Ral·li Torrefeta
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "4"
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2017"
+    date: 18/11/2017
+    race_name: 5è Ral·li Focuxtreme - 2000 Viratges
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "1"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2017"
+    date: 10/12/2017
+    race_name: 24è Ral-li Tàrrega
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "8"
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2018"
+    date: 21/04/2018
+    race_name: 20è. Ral·li Igualada - Focuxtreme
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: out
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2018"
+    date: 12/05/2018
+    race_name: 5è Ral·li de Terra Vila de Bellpuig
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "5"
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2018"
+    date: 15/09/2018
+    race_name: XIX Ral·li de La Llana
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "2"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2018"
+    date: 03/11/2018
+    race_name: 6è Ral·li Torrefeta
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: out
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2019"
+    date: 06/07/2019
+    race_name: 51è Ral·li Osona
+    driver: Marià Novellas
+    car: Seat 124
+    final_class_position: "1"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2019"
+    date: 3/11/2019
+    race_name: 26è Ral·lisprint Ciutat de Tàrrega
+    driver: Raúl Barrionuevo
+    car: Ford Focus
+    final_class_position: "3"
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2022"
+    date: 26/2/2022
+    race_name: 26è Rallysprint Llucena
+    driver: Biel Gavilán
+    car: Dacia Sandero
+    final_class_position: "1"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2022"
+    date: 1/4/2022
+    race_name: 39 Rally Sierra Morena
+    driver: Biel Gavilán
+    car: Dacia Sandero
+    final_class_position: "3"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2022"
+    date: 1/5/2022
+    race_name: 12è Ral·li Ciutat de Valls
+    driver: Biel Gavilán
+    car: Dacia Sandero
+    final_class_position: "9"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2022"
+    date: 27/5/2022
+    race_name: 35è Ral·li Empordà
+    driver: Biel Gavilán
+    car: Dacia Sandero
+    final_class_position: "8"
+    race_type:
+      ca: Asfalt
+      es: Asfalto
+      en: Tarmac
+  - year: "2023"
+    date: 21/7/2023
+    race_name: 39 Baja Aragón (Parabaja)
+    driver: Iván Barbero
+    car: Toyota FJ
+    final_class_position: "-"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2023"
+    date: 1/9/2023
+    race_name: Rally Cierzo
+    driver: Oscar Menéndez
+    car: Nissan Patrol GR
+    final_class_position: out
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2023"
+    date: 16/9/2023
+    race_name: IV Clàssic Raid Pla de l'Estany
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: "4"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2023"
+    date: 21/10/2023
+    race_name: Rally TT Cuenca
+    driver: Joan Gassó
+    car: Yamaha YXZ 1000 R
+    final_class_position: "4"
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
+  - year: "2023"
+    date: 4/11/2023
+    race_name: IV Clàssic Raid La Selva
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: "2"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2024"
+    date: 24/2/2024
+    race_name: I Clàssic Raid La Garrotxa
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: out
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2024"
+    date: 12/4/2024
+    race_name: Rally TT Jaén Mar de Olivos
+    driver: Joan Gassó
+    car: Yamaha YXZ 1000 R
+    final_class_position: "1"
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
+  - year: "2024"
+    date: 27/4/2024
+    race_name: II Clàssic Raid Tàrraco
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: "2"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2024"
+    date: 2/5/2024
+    race_name: Baja TT Extremadura
+    driver: Joan Gassó
+    car: Yamaha YXZ 1000 R
+    final_class_position: "4"
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
+  - year: "2024"
+    date: 24/5/2024
+    race_name: Baja Lorca
+    driver: Joan Gassó
+    car: Yamaha YXZ 1000 R
+    final_class_position: "5"
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
+  - year: "2024"
+    date: 8/6/2024
+    race_name: Classic Raid La Selva
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: "2"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2024"
+    date: 5/7/2024
+    race_name: Cierzo Rally
+    driver: Joan Gassó
+    car: Yamaha YXZ 1000 R
+    final_class_position: out
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
+  - year: "2024"
+    date: 26/7/2024
+    race_name: Baja Aragón
+    driver: Joan Gassó
+    car: Yamaha YXZ 1000 R
+    final_class_position: out
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
+  - year: "2024"
+    date: 14/9/2024
+    race_name: Classic Raid Pla de l'Estany
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: out
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2024"
+    date: 9/11/2024
+    race_name: Classic Raid Alt Empordà
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: "2"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2024"
+    date: 29/12/2024
+    race_name: Raid Clásicos del Atlas
+    driver: Joaquim Aramendia
+    car: Jeep Grand Cherokee WJ
+    final_class_position: out
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2025"
+    date: 22/02/2025
+    race_name: I Classic Sprint Circuit d'Elne
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: "5"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2025"
+    date: 05/04/2025
+    race_name: III Classic Raid Tarraco
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: "3"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2025"
+    date: 12/04/2025
+    race_name: 2n Ral·li del Trepat
+    driver: Jordi Figueras
+    car: Peugeot 106
+    final_class_position: "-"
+    race_type:
+      ca: Terra
+      es: Tierra
+      en: Gravel
+  - year: "2025"
+    date: 31/05/2025
+    race_name: IV Classic Raid La Selva
+    driver: Joaquim Aramendia
+    car: Jeep Cherokee XJ
+    final_class_position: "24"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2025"
+    date: 06/09/2025
+    race_name: Rallye Ripollès Classic
+    driver: Joaquim Aramendia
+    car: Porsche Boxter
+    final_class_position: "7"
+    race_type:
+      ca: Regularitat asfalt
+      es: Regularidad asfalto
+      en: Tarmac regularity
+  - year: "2025"
+    date: 20/09/2025
+    race_name: V Classic Raid Pla de l'Estany
+    driver: Joaquim Aramendia
+    car: Jeep Grand Cherokee
+    final_class_position: "18"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2025"
+    date: 08/11/2025
+    race_name: V Classic Raid Alt Empordà
+    driver: Joaquim Aramendia
+    car: Jeep Grand Cherokee
+    final_class_position: "10"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2026"
+    date: 06/03/2026
+    race_name: Rallye TT Guadalajara
+    driver: Xavier Juncosa
+    car: Toyota Land Cruiser
+    final_class_position: "2"
+    race_type:
+      ca: Regularitat off road
+      es: Regularidad off road
+      en: Off-road regularity
+  - year: "2026"
+    date: 11/04/2026
+    race_name: Rally TT Jaén Mar de Olivos
+    driver: Xavier Juncosa
+    car: Toyota Land Cruiser
+    final_class_position: "2"
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid

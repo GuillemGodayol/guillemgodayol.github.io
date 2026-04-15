@@ -1,0 +1,15 @@
+{
+  "name": "rally-cv",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.8.0",
+    "yaml": "^2.8.1"
+  }
+}

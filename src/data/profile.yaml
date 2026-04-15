@@ -1,0 +1,190 @@
+site:
+  site_name:
+    ca: "Guillem Godayol - Copilot"
+    es: "Guillem Godayol - Copiloto"
+    en: "Guillem Godayol - Navigator"
+  tagline:
+    ca: "Velocitat i regularitat des del seient de la dreta."
+    es: "Velocidad y regularidad desde el asiento de la derecha."
+    en: "Speed and regularity from the right-hand seat."
+  languages:
+    - code: "ca"
+      label: "CAT"
+    - code: "es"
+      label: "ESP"
+    - code: "en"
+      label: "ENG"
+  labels:
+    training:
+      ca: "Formació"
+      es: "Formación"
+      en: "Training"
+    races:
+      ca: "Ral·lis"
+      es: "Rallies"
+      en: "Rallies"
+    skills:
+      ca: "Competències"
+      es: "Competencias"
+      en: "Skills"
+    contact:
+      ca: "Contacte"
+      es: "Contacto"
+      en: "Contact"
+    highlights:
+      ca: "Punts clau"
+      es: "Puntos clave"
+      en: "Highlights"
+    summary:
+      ca: "Resum de participacions"
+      es: "Resumen de participaciones"
+      en: "Race summary"
+    classPosition:
+      ca: "Posició classe:"
+      es: "Posición clase:"
+      en: "Class position:"
+    showMoreRaces:
+      ca: "Veure totes les curses"
+      es: "Ver todas las carreras"
+      en: "See all races"
+    showLessRaces:
+      ca: "Mostrar-ne menys"
+      es: "Mostrar menos"
+      en: "Show less"
+    showMoreTraining:
+      ca: "Veure tota la formació"
+      es: "Ver toda la formación"
+      en: "See all training"
+    showLessTraining:
+      ca: "Mostrar-ne menys"
+      es: "Mostrar menos"
+      en: "Show less"
+    backToTop:
+      ca: "Tornar a dalt"
+      es: "Volver arriba"
+      en: "Back to top"
+
+profile:
+  meta_title:
+    ca: "CV de copilot de rally raid"
+    es: "CV de copiloto de rally raid"
+    en: "Rally raid codriver CV"
+  meta_description:
+    ca: "Curriculum viu d'un copilot orientat als rally raids de llarga distancia."
+    es: "Curriculum vivo de un copiloto orientado a rally raids de larga distancia."
+    en: "Live CV for a codriver focused on long-distance rally raid."
+  name: "Guillem Godayol"
+  headline:
+    ca: "Copilot de rally raid, tant per velocitat com per regularitat."
+    es: "Copiloto de rally raid, tanto para velocidad como para regularidad."
+    en: "Rally raid codriver, for both speed and regularity races."
+  bio:
+    ca: "Aficionat des de petit als ral·lis, especialment als raids de llarga distància. Amb experiència en diverses competicions i formacions, busco seguir creixent com a copilot i afrontar nous reptes al món del rally raid."
+    es: "Aficionado desde pequeño a los rallies, especialmente a los raids de larga distancia. Con experiencia en diversas competiciones y formaciones, busco seguir creciendo como copiloto y afronar nuevos retos en el mundo del rally raid."
+    en: "I’ve been a fan of rallying since I was a child, particularly long-distance rallies. With experience in various competitions and training programmes, I’m keen to continue developing as a co-driver and take on new challenges in the world of rally raids."
+  location:
+    ca: "Barcelona"
+    es: "Barcelona"
+    en: "Barcelona"
+  contact:
+    instagram_cta:
+      ca: "Contacta'm per Instagram"
+      es: "Contacta conmigo por Instagram"
+      en: "Contact me through Instagram"
+    instagram: "@guillemgodayol"
+  photo:
+    src: "/images/profile_picture.png"
+    alt:
+      ca: "Foto de perfil"
+      es: "Foto de perfil"
+      en: "Profile photo"
+
+skills:
+  - group:
+      ca: "Navegació"
+      es: "Navegación"
+      en: "Navigation"
+    skill:
+      ca: "Roadbook"
+      es: "Roadbook"
+      en: "Roadbook"
+  - group:
+      ca: "Navegació"
+      es: "Navegación"
+      en: "Navigation"
+    skill:
+      ca: "Waypoints"
+      es: "Waypoints"
+      en: "Waypoints"
+  - group:
+      ca: "Navegació"
+      es: "Navegación"
+      en: "Navigation"
+    skill:
+      ca: "CAP i notes"
+      es: "CAP y notas"
+      en: "CAP headings and notes"
+  - group:
+      ca: "Navegació"
+      es: "Navegación"
+      en: "Navigation"
+    skill:
+      ca: "Control de ritme"
+      es: "Control de ritmo"
+      en: "Pace control"
+  - group:
+      ca: "Operativa"
+      es: "Operativa"
+      en: "Operations"
+    skill:
+      ca: "Preparació administrativa"
+      es: "Preparación administrativa"
+      en: "Administrative prep"
+  - group:
+      ca: "Operativa"
+      es: "Operativa"
+      en: "Operations"
+    skill:
+      ca: "Briefings"
+      es: "Briefings"
+      en: "Briefings"
+  - group:
+      ca: "Operativa"
+      es: "Operativa"
+      en: "Operations"
+    skill:
+      ca: "Logística d'assistència"
+      es: "Logística de asistencia"
+      en: "Assistance logistics"
+  - group:
+      ca: "Operativa"
+      es: "Operativa"
+      en: "Operations"
+    skill:
+      ca: "Anàlisi post-etapa"
+      es: "Análisis post-etapa"
+      en: "Post-stage analysis"
+  - group:
+      ca: "Idiomes"
+      es: "Idiomas"
+      en: "Languages"
+    skill:
+      ca: "Català"
+      es: "Catalán"
+      en: "Catalan"
+  - group:
+      ca: "Idiomes"
+      es: "Idiomas"
+      en: "Languages"
+    skill:
+      ca: "Castellà"
+      es: "Castellano"
+      en: "Spanish"
+  - group:
+      ca: "Idiomes"
+      es: "Idiomas"
+      en: "Languages"
+    skill:
+      ca: "Anglès"
+      es: "Inglés"
+      en: "English"

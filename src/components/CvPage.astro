@@ -1,0 +1,195 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HeroSection from "./HeroSection.astro";
+import SectionBlock from "./SectionBlock.astro";
+
+const { data, ui } = Astro.props;
+const labels = ui.labels[data.lang];
+const visibleRaces = data.races.slice(0, 3);
+const extraRaces = data.races.slice(3);
+const visibleTraining = data.training.slice(0, 3);
+const extraTraining = data.training.slice(3);
+---
+
+<BaseLayout
+  title={data.meta.title}
+  description={data.meta.description}
+  currentLang={data.lang}
+  ui={ui}
+>
+  <a id="top"></a>
+  <HeroSection profile={data.profile} labels={labels} />
+
+  <SectionBlock id="races" title={labels.races}>
+    <div class="race-summary">
+      <h3>{labels.summary}</h3>
+      <div class="race-summary-list">
+        {data.raceSummary.map((item) => (
+          <p class="summary-pill">
+            <span>{item.category}</span>
+            <strong>{item.count}</strong>
+          </p>
+        ))}
+      </div>
+    </div>
+    <div class="race-grid" data-title-sync-grid>
+      {visibleRaces.map((race) => (
+        <article class="race-card">
+          <div class="race-header">
+            <p class="race-date">{race.date}</p>
+            <span class="race-category">{race.category}</span>
+          </div>
+          <h3 class="race-title" data-sync-title>{race.name}</h3>
+          <p class="race-subtitle">{race.driver} · {race.vehicle}</p>
+          <p class="race-result">
+            <span>{labels.classPosition}</span>
+            <strong>{race.result}</strong>
+          </p>
+        </article>
+      ))}
+    </div>
+    {extraRaces.length > 0 && (
+      <>
+        <div class="race-grid is-collapsed" data-expandable="races" data-title-sync-grid>
+          {extraRaces.map((race) => (
+            <article class="race-card">
+              <div class="race-header">
+                <p class="race-date">{race.date}</p>
+                <span class="race-category">{race.category}</span>
+              </div>
+              <h3 class="race-title" data-sync-title>{race.name}</h3>
+              <p class="race-subtitle">{race.driver} · {race.vehicle}</p>
+              <p class="race-result">
+                <span>{labels.classPosition}</span>
+                <strong>{race.result}</strong>
+              </p>
+            </article>
+          ))}
+        </div>
+        <div class="section-link-row">
+          <button
+            class="section-link"
+            type="button"
+            data-toggle-target="races"
+            data-label-more={labels.showMoreRaces}
+            data-label-less={labels.showLessRaces}
+            aria-expanded="false"
+          >
+            {labels.showMoreRaces}
+          </button>
+        </div>
+      </>
+    )}
+  </SectionBlock>
+
+  <SectionBlock id="training" title={labels.training}>
+    <div class="timeline-grid" data-title-sync-grid>
+      {visibleTraining.map((item) => (
+        <article class="timeline-card">
+          <p class="timeline-year">{item.year}</p>
+          <h3 class="timeline-title" data-sync-title>{item.title}</h3>
+          <p class="timeline-subtitle">{item.institution}</p>
+          <p>{item.description}</p>
+        </article>
+      ))}
+    </div>
+    {extraTraining.length > 0 && (
+      <>
+        <div class="timeline-grid is-collapsed" data-expandable="training" data-title-sync-grid>
+          {extraTraining.map((item) => (
+            <article class="timeline-card">
+              <p class="timeline-year">{item.year}</p>
+              <h3 class="timeline-title" data-sync-title>{item.title}</h3>
+              <p class="timeline-subtitle">{item.institution}</p>
+              <p>{item.description}</p>
+            </article>
+          ))}
+        </div>
+        <div class="section-link-row">
+          <button
+            class="section-link"
+            type="button"
+            data-toggle-target="training"
+            data-label-more={labels.showMoreTraining}
+            data-label-less={labels.showLessTraining}
+            aria-expanded="false"
+          >
+            {labels.showMoreTraining}
+          </button>
+        </div>
+      </>
+    )}
+  </SectionBlock>
+
+  <SectionBlock id="skills" title={labels.skills}>
+    <div class="skills-grid">
+      {data.skills.map((group) => (
+        <article class="skill-card">
+          <h3>{group.group}</h3>
+          <ul>
+            {group.items.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </SectionBlock>
+
+  <script is:inline>
+    const syncTitleRows = () => {
+      document.querySelectorAll("[data-title-sync-grid]").forEach((grid) => {
+        if (grid.offsetParent === null) {
+          return;
+        }
+
+        const titles = Array.from(grid.querySelectorAll("[data-sync-title]"));
+        const rows = new Map();
+
+        titles.forEach((title) => {
+          const card = title.closest(".race-card, .timeline-card");
+          if (!card) {
+            return;
+          }
+
+          card.classList.remove("row-two-lines");
+          const top = Math.round(card.getBoundingClientRect().top);
+          const row = rows.get(top) ?? [];
+          row.push({ title, card });
+          rows.set(top, row);
+        });
+
+        rows.forEach((rowItems) => {
+          const needsTwoLines = rowItems.some(({ title }) => {
+            const lineHeight = Number.parseFloat(getComputedStyle(title).lineHeight);
+            return title.scrollHeight > lineHeight * 1.35;
+          });
+
+          if (needsTwoLines) {
+            rowItems.forEach(({ card }) => card.classList.add("row-two-lines"));
+          }
+        });
+      });
+    };
+
+    syncTitleRows();
+    window.addEventListener("resize", syncTitleRows);
+
+    document.querySelectorAll("[data-toggle-target]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const target = button.getAttribute("data-toggle-target");
+        const container = document.querySelector(`[data-expandable="${target}"]`);
+
+        if (!container) {
+          return;
+        }
+
+        const isExpanded = !container.classList.contains("is-collapsed");
+        container.classList.toggle("is-collapsed", isExpanded);
+        button.setAttribute("aria-expanded", String(!isExpanded));
+        button.textContent = isExpanded
+          ? button.getAttribute("data-label-more")
+          : button.getAttribute("data-label-less");
+        requestAnimationFrame(syncTitleRows);
+      });
+    });
+  </script>
+</BaseLayout>

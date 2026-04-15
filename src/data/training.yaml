@@ -1,0 +1,79 @@
+training:
+  - year: "2023"
+    title:
+      ca: "Lectura de roadbook amb tablet"
+      es: "Lectura de roadbook con tablet"
+      en: "Roadbook reading with tablet"
+    institution:
+      ca: "Àlex Haro"
+      es: "Àlex Haro"
+      en: "Àlex Haro"
+    description:
+      ca: "Repàs de teoria i 120km de pràctica de lectura de roadbook amb tablet ERTF."
+      es: "Repaso de teoria y 120km de práctica de lectura de roadbook con tablet ERTF."
+      en: "Theory review and 120km of practice of roadbook reading with ERTF tablet."
+  - year: "2023"
+    title:
+      ca: "Lèxic, waypoints i navegació"
+      es: "Léxico, waypoints y navegación"
+      en: "Lexicon, waypoints and navigation"
+    institution:
+      ca: "Rosa Romero"
+      es: "Rosa Romero"
+      en: "Rosa Romero"
+    description:
+      ca: "Aprofundiment en la lectura de roadbook, lèxic, waypoints i navegació."
+      es: "Profundización en la lectura de roadbook, léxico, waypoints y navegación."
+      en: "Deep dive into roadbook reading, lexicon, waypoints and navigation."
+  - year: "2023"
+    title:
+      ca: "Curs de copilotatge a Masía Pelarda"
+      es: "Curso de copilotaje en Masía Pelarda"
+      en: "Codriving course at Masía Pelarda"
+    institution:
+      ca: "Mónica Plaza i David Nadal"
+      es: "Mónica Plaza y David Nadal"
+      en: "Mónica Plaza and David Nadal"
+    description:
+      ca: "Teoria i pràctica de copilotatge i lectura de roadbook."
+      es: "Teoría y práctica de copilotaje y lectura de roadbook."
+      en: "Theory and practice of codriving and roadbook reading."
+  - year: "2022"
+    title:
+      ca: "The Rally Codriver"
+      es: "The Rally Codriver"
+      en: "The Rally Codriver"
+    institution:
+      ca: "Axel Coronado"
+      es: "Axel Coronado"
+      en: "Axel Coronado"
+    description:
+      ca: "Curs complet de copilotatge."
+      es: "Curso completo de copilotaje."
+      en: "Complete codriving course."
+  - year: "2012"
+    title:
+      ca: "Rally & You"
+      es: "Rally & You"
+      en: "Rally & You"
+    institution:
+      ca: "Federació Catalana d'Automobilisme + CatCo-Drivers (Àlex Haro, Oriol Julià, Nico del Corral)"
+      es: "Federació Catalana d'Automobilisme + CatCo-Drivers (Àlex Haro, Oriol Julià, Nico del Corral)"
+      en: "Federació Catalana d'Automobilisme + CatCo-Drivers (Àlex Haro, Oriol Julià, Nico del Corral)"
+    description:
+      ca: "Iniciació al copilotatge."
+      es: "Iniciación al copilotaje."
+      en: "Introduction to codriving."
+  - year: "2011"
+    title:
+      ca: "Quieres ser copiloto en un rally todo terreno?"
+      es: "Quieres ser copiloto en un rally todo terreno?"
+      en: "Quieres ser copiloto en un rally todo terreno?"
+    institution:
+      ca: "Josep Mª Ferrer i Joan Font"
+      es: "Josep Mª Ferrer y Joan Font"
+      en: "Josep Mª Ferrer and Joan Font"
+    description:
+      ca: "Formació teòrica i pràctica i selecció d'un copilot."
+      es: "Formación teórica y práctica y selección de un copiloto."
+      en: "Theory and practice and selection of a co-driver."
