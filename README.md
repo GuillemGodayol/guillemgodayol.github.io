@@ -13,11 +13,9 @@ Static multilingual rally raid codriver CV fed directly from three local YAML fi
 
 Edit:
 
-- [`src/data/profile.yaml`](/Users/guillemgodayol/gitprojects/rally_cv/src/data/profile.yaml)
-- [`src/data/training.yaml`](/Users/guillemgodayol/gitprojects/rally_cv/src/data/training.yaml)
-- [`src/data/races.yaml`](/Users/guillemgodayol/gitprojects/rally_cv/src/data/races.yaml)
-
-Astro now reads the YAML files directly, so there is no extra generation step.
+- [`src/data/profile.yaml`]
+- [`src/data/training.yaml`]
+- [`src/data/races.yaml`]
 
 ## File structure
 
@@ -42,7 +40,7 @@ car: "Toyota Land Cruiser"
 
 ## Race entry example
 
-Each race is one YAML item in [`races.yaml`](/Users/guillemgodayol/gitprojects/rally_cv/src/data/races.yaml), so updating the CV means adding one block like this:
+Each race is one YAML item in [`races.yaml`], so updating the CV means adding one block like this:
 
 ```yaml
 - year: "2026"
@@ -66,7 +64,7 @@ By default, races are shown in reverse order of how they appear in `races.yaml`,
 
 ## Training entry example
 
-Each training item is one YAML item in [`training.yaml`](/Users/guillemgodayol/gitprojects/rally_cv/src/data/training.yaml):
+Each training item is one YAML item in [`training.yaml`]:
 
 ```yaml
 - year: "2025"
@@ -83,25 +81,8 @@ Each training item is one YAML item in [`training.yaml`](/Users/guillemgodayol/g
 
 ## Profile and skills
 
-[`profile.yaml`](/Users/guillemgodayol/gitprojects/rally_cv/src/data/profile.yaml) contains:
+[`profile.yaml`]contains:
 
 - site title and UI labels
 - your presentation/profile data
 - the skills section
-
-## Local development
-
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## Deployment
-
-Push to `main` or run the GitHub Actions workflow manually. No secrets are required anymore.
