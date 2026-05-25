@@ -1,14 +1,4 @@
 races:
-  - year: "2026"
-    date: 2026-04-11
-    race_name: Raid Terra Sud
-    driver: Nom del pilot
-    car: Toyota Land Cruiser
-    final_class_position: "10"
-    race_type:
-      ca: Rally raid
-      es: Rally raid
-      en: Rally raid
   - year: "2011"
     date: 09/04/2011
     race_name: Baja Almanzora (Pilot)
