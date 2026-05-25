@@ -59,6 +59,10 @@ site:
       ca: "Mostrar-ne menys"
       es: "Mostrar menos"
       en: "Show less"
+    backToAll:
+      ca: "Tornar a totes"
+      es: "Volver a todas"
+      en: "Back to all"
     backToTop:
       ca: "Tornar a dalt"
       es: "Volver arriba"

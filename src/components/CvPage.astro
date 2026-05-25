@@ -25,16 +25,21 @@ const extraTraining = data.training.slice(3);
       <h3>{labels.summary}</h3>
       <div class="race-summary-list">
         {data.raceSummary.map((item) => (
-          <p class="summary-pill">
+          <button
+            class="summary-pill summary-pill-button"
+            type="button"
+            data-filter-category={item.category}
+            aria-pressed="false"
+          >
             <span>{item.category}</span>
             <strong>{item.count}</strong>
-          </p>
+          </button>
         ))}
       </div>
     </div>
-    <div class="race-grid" data-title-sync-grid>
+    <div class="race-grid" data-title-sync-grid data-race-list>
       {visibleRaces.map((race) => (
-        <article class="race-card">
+        <article class="race-card" data-race-category={race.category}>
           <div class="race-header">
             <p class="race-date">{race.date}</p>
             <span class="race-category">{race.category}</span>
@@ -52,7 +57,7 @@ const extraTraining = data.training.slice(3);
       <>
         <div class="race-grid is-collapsed" data-expandable="races" data-title-sync-grid>
           {extraRaces.map((race) => (
-            <article class="race-card">
+            <article class="race-card" data-race-category={race.category}>
               <div class="race-header">
                 <p class="race-date">{race.date}</p>
                 <span class="race-category">{race.category}</span>
@@ -76,6 +81,14 @@ const extraTraining = data.training.slice(3);
             aria-expanded="false"
           >
             {labels.showMoreRaces}
+          </button>
+          <button
+            class="section-link"
+            type="button"
+            data-reset-filters
+            hidden
+          >
+            {labels.backToAll}
           </button>
         </div>
       </>
@@ -173,6 +186,61 @@ const extraTraining = data.training.slice(3);
     syncTitleRows();
     window.addEventListener("resize", syncTitleRows);
 
+    const filterRaceCards = (category) => {
+      const cards = Array.from(document.querySelectorAll("[data-race-category]"));
+      const filterButtons = Array.from(document.querySelectorAll("[data-filter-category]"));
+      const resetButton = document.querySelector("[data-reset-filters]");
+      const extraContainer = document.querySelector("[data-expandable='races']");
+      const showMoreButton = document.querySelector("[data-toggle-target='races']");
+
+      cards.forEach((card) => {
+        const matches = !category || card.dataset.raceCategory === category;
+        card.hidden = !matches;
+      });
+
+      filterButtons.forEach((button) => {
+        const active = category && button.dataset.filterCategory === category;
+        button.classList.toggle("is-active", active);
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+
+      if (resetButton) {
+        resetButton.hidden = !category;
+      }
+
+      if (!category) {
+        if (extraContainer) {
+          extraContainer.classList.add("is-collapsed");
+        }
+        if (showMoreButton) {
+          showMoreButton.setAttribute("aria-expanded", "false");
+          showMoreButton.textContent = showMoreButton.getAttribute("data-label-more");
+        }
+      } else if (extraContainer) {
+        const hasExtraMatch = Array.from(extraContainer.querySelectorAll("[data-race-category]")).some(
+          (card) => !card.hidden
+        );
+
+        if (hasExtraMatch) {
+          extraContainer.classList.remove("is-collapsed");
+          if (showMoreButton) {
+            showMoreButton.setAttribute("aria-expanded", "true");
+            showMoreButton.textContent = showMoreButton.getAttribute("data-label-less");
+          }
+        }
+      }
+
+      requestAnimationFrame(syncTitleRows);
+    };
+
+    document.querySelectorAll("[data-filter-category]").forEach((button) => {
+      button.addEventListener("click", () => filterRaceCards(button.dataset.filterCategory));
+    });
+
+    document.querySelectorAll("[data-reset-filters]").forEach((button) => {
+      button.addEventListener("click", () => filterRaceCards(null));
+    });
+
     document.querySelectorAll("[data-toggle-target]").forEach((button) => {
       button.addEventListener("click", () => {
         const target = button.getAttribute("data-toggle-target");
@@ -192,4 +260,25 @@ const extraTraining = data.training.slice(3);
       });
     });
   </script>
+  <style is:inline>
+    .summary-pill-button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      font: inherit;
+      color: inherit;
+      padding: 0;
+      margin: 0;
+    }
+
+    .summary-pill-button:focus-visible {
+      outline: 2px solid rgba(255, 133, 31, 0.65);
+      outline-offset: 2px;
+    }
+
+    .summary-pill-button.is-active {
+      background: rgba(255, 133, 31, 0.18);
+      border-color: rgba(255, 133, 31, 0.4);
+    }
+  </style>
 </BaseLayout>
