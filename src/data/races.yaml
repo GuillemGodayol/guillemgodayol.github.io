@@ -649,3 +649,13 @@ races:
       ca: Rally raid
       es: Rally raid
       en: Rally raid
+  - year: "2026"
+    date: 09/05/2026
+    race_name: Baja Cuenca
+    driver: Xavier Juncosa
+    car: Toyota Land Cruiser
+    final_class_position: "out"
+    race_type:
+      ca: Rally raid
+      es: Rally raid
+      en: Rally raid
